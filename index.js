@@ -13,9 +13,9 @@ app.post('/Plans/estimate', function(req, res) {
 });
 
 var data = [{
-  name: 'Laptop',
-  id: '2',
-  amount: '50000'
+  name: 'Smarttttttttttttttttvvvvvvvvvvv',
+  id: '3',
+  amount: '500000'
 }];
 
 app.listen(8080, function() {
