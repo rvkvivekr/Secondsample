@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
-app.get('/Plans/estimate', function(req, res) {
+app.get('/', function(req, res) {
     res.json(data);   
 });
 
@@ -13,12 +13,12 @@ app.post('/Plans/estimate', function(req, res) {
 });
 
 var data = [{
-  name: 'Mobile',
-  id: '1',
-  amount: '5000'
+  name: 'Laptop',
+  id: '2',
+  amount: '50000'
 }];
 
-app.listen(3456, function() {
+app.listen(8080, function() {
     console.log('Service is running');
 });
 
