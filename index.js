@@ -13,8 +13,8 @@ app.post('/Plans/estimate', function(req, res) {
 });
 
 var data = [{
-  name: 'Smarttphone',
-  id: '3',
+  name: 'SmarttWatch',
+  id: '3444',
   amount: '500000'
 }];
 
